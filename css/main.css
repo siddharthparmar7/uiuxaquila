@@ -1,0 +1,102 @@
+/*
+Author = Siddharth Parmar
+
+IMG 209
+Project Aquila
+Date : 07/11/16
+
+blue = 3F51B5
+pink = FF4081
+*/
+
+
+
+/*
+=====================================
+    fonts
+=====================================
+
+*/
+
+@font-face {
+    font-family: "Helvetica Neue Medium";
+    src: url(../fonts/HelveticaNeueMedium.ttf) format("truetype");
+}
+
+
+
+
+/*  Header */
+
+header .navWrapper{
+/*    margin-top: 25px;*/
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+header nav {
+/*    float:left;*/
+    margin: 1% 0 1% 30%;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 90px;    
+}
+
+header nav ul li a {
+    font-family: "Helvetica Neue Medium";
+    font-size: 1.4em;
+    color: #E0E0E0;
+}
+header nav ul li a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header .navWrapper {
+    background-color: #3F51B5;
+}
+
+/*  hero image and text
+    hero section
+*/
+
+.hero-text {
+    font-family: "Helvetica Neue Medium";
+	color: #FFFFFF;
+    position: absolute;
+    left: 40%;
+    top: 23%;
+    font-size: 50px;
+    line-height: 1.25;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.hero {
+/*	background: url("../images/heroImage.jpg") no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*    position: relative;*/
+/*    padding: 300px 0;*/
+/*    width: 100%;*/
+}
+
+section .hero-video video{
+    width: 100%;
+}
+
+/*  play button image*/
+.playButton {
+    
+    
+    position: absolute;
+/*    height: 9%;*/
+    width: 6%;
+    margin: 35% 0 0% 48%;
+    
+}
