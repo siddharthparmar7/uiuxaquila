@@ -23,10 +23,39 @@ pink = FF4081
     src: url(../fonts/HelveticaNeueMedium.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "HelveticaNeue Light";
+    src: url(../fonts/HelveticaNeueLight.ttf) format("truetype");
+}
 
 
+/*
+=================================================================
+    Universal settings for headers and paragraphs and links
+=================================================================
 
-/*  Header */
+*/
+
+h1, h2, h3, h4, h5 {
+    font-family: "Helvetica Neue Medium";
+}
+
+p, a {
+    font-family: "HelveticaNeue Light";
+    font-size: 15px;
+}
+
+a{
+    color: #3F51B5;
+    text-decoration: none;
+}
+
+/*
+============================
+    header/ section 1
+============================
+
+*/
 
 header .navWrapper{
 /*    margin-top: 25px;*/
@@ -61,8 +90,11 @@ header .navWrapper {
     background-color: #3F51B5;
 }
 
-/*  hero image and text
+/*  
+==================================
+    hero image and text
     hero section
+==================================
 */
 
 .hero-text {
@@ -98,5 +130,82 @@ section .hero-video video{
 /*    height: 9%;*/
     width: 6%;
     margin: 35% 0 0% 48%;
+    z-index: 1;
     
+}
+
+/* 
+==================================================
+                    section 2
+==================================================
+*/
+
+.section2 {
+	background-color: #E0E0E0;
+    position: relative;
+}
+
+.section2 h1 {
+    text-align: center;
+    opacity: 0.87;
+}
+
+.section2 .container{
+	background-color: #FAFAFA;
+/*    margin-top: -2%;*/
+}
+
+.sec2-tech-name {
+	margin-left: 4%;
+    opacity: 0.54;
+}
+
+.sec2-tech-details a {
+	opacity: 0.54;
+    text-decoration: none;
+}
+
+.gallery-thumbnails-row {
+	margin-top: 7%;
+}
+
+.gallery-thumbnail {
+	height: 100%;
+    width: 100%;
+}
+
+.section2 {
+/*	height: 100%;*/
+/*    padding-bottom: 7%;*/
+}
+
+/* 
+==================================================
+                    section 3
+==================================================
+*/
+
+.section3 {
+	background-color: #E0E0E0;
+/*    position: relative;*/
+}
+
+.section3 .container{
+     padding-top: 7%;
+	 background-color: #F5F5F5;
+    padding-bottom: 2%;
+}
+
+.section3 .secondary-nav li{
+	text-decoration: none;
+    display: inline-block;
+    margin-right: 9%;
+}
+
+.secondary-nav li a{
+	font-size: 18px;
+}
+
+.copyright-slogan {
+    opacity: 0.54;
 }
