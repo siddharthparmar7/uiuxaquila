@@ -45,10 +45,17 @@ p, a {
     font-size: 15px;
 }
 
-a{
-    color: #3F51B5;
-    text-decoration: none;
+h1{
+    font-size: 50px;
+    line-height: 1.25;
+    letter-spacing: 3px;
+    font-weight: 600;
 }
+
+a {
+    color: #3F51B5;
+}
+
 
 /*
 ============================
@@ -64,29 +71,40 @@ header .navWrapper{
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
+    background-color: #3F51B5;
+    height: 50px;
+    border: none;
+    float: none;
+    padding: 0;
 }
 
-header nav {
-/*    float:left;*/
-    margin: 1% 0 1% 30%;
-}
-
-header nav ul li {
+.navbar .navbar-nav {
     display: inline-block;
-    margin-right: 90px;    
 }
 
-header nav ul li a {
+nav {
+    height: 50px;
+    text-align: center;
+    
+}
+ nav ul li {
+    display: inline-block;
+    margin-right: 45px; 
+    margin-left: 45px;
+    line-height: 50px;
+}
+
+nav ul li a {
     font-family: "Helvetica Neue Medium";
     font-size: 1.4em;
     color: #E0E0E0;
 }
-header nav ul li a:hover {
+nav ul li a:hover {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-header .navWrapper {
+.navWrapper {
     background-color: #3F51B5;
 }
 
@@ -98,15 +116,16 @@ header .navWrapper {
 */
 
 .hero-text {
-    font-family: "Helvetica Neue Medium";
 	color: #FFFFFF;
     position: absolute;
-    left: 40%;
-    top: 23%;
-    font-size: 50px;
-    line-height: 1.25;
-    letter-spacing: 3px;
-    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+/*    position: relative;*/
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    
 }
 
 .hero {
@@ -125,12 +144,7 @@ section .hero-video video{
 /*  play button image*/
 .playButton {
     
-    
-    position: absolute;
-/*    height: 9%;*/
-    width: 6%;
-    margin: 35% 0 0% 48%;
-    z-index: 1;
+    width: 90px;
     
 }
 
@@ -143,6 +157,7 @@ section .hero-video video{
 .section2 {
 	background-color: #E0E0E0;
     position: relative;
+    margin-top: -10px;
 }
 
 .section2 h1 {
@@ -150,9 +165,28 @@ section .hero-video video{
     opacity: 0.87;
 }
 
+.whole-section2-wrapper{
+    	background-color: #FAFAFA;
+}
 .section2 .container{
-	background-color: #FAFAFA;
-/*    margin-top: -2%;*/
+/*	background-color: #FAFAFA;*/
+/*
+    position: absolute;
+    margin: -10% 0% 0% 8%;
+    margin-top: -2%;
+*/
+}
+
+.section2 .section2-wrapper.intro{
+	 background-color: #FAFAFA;
+     margin-top: -40px;
+/*    margin-bottom: -40px;*/
+}
+
+.section2 .section2-wrapper{
+	 background-color: #FAFAFA;
+    padding-bottom: 40px;
+/*     margin-top: -40px;*/
 }
 
 .sec2-tech-name {
@@ -165,6 +199,13 @@ section .hero-video video{
     text-decoration: none;
 }
 
+.aquila-project-intro p{
+    margin-top: 1%;
+	margin-left: 2%;
+    
+/*    background-color: aqua;*/
+}
+
 .gallery-thumbnails-row {
 	margin-top: 7%;
 }
@@ -174,27 +215,28 @@ section .hero-video video{
     width: 100%;
 }
 
-.section2 {
-/*	height: 100%;*/
-/*    padding-bottom: 7%;*/
+.section2 .row{
+    margin-bottom: 2%;
 }
 
 /* 
 ==================================================
-                    section 3
+                    section 3/ footer
 ==================================================
 */
 
 .section3 {
 	background-color: #E0E0E0;
-/*    position: relative;*/
+/*    position: absolute;*/
+/*    margin: 60% 0% 0% 8%;*/
 }
 
-.section3 .container{
+.section3 .footer-wrapper{
      padding-top: 7%;
 	 background-color: #F5F5F5;
-    padding-bottom: 2%;
+     padding-bottom: 2%;
 }
+
 
 .section3 .secondary-nav li{
 	text-decoration: none;
@@ -204,8 +246,39 @@ section .hero-video video{
 
 .secondary-nav li a{
 	font-size: 18px;
+    text-decoration: none;
 }
 
 .copyright-slogan {
     opacity: 0.54;
+}
+
+/* 
+==================================================
+                    technology page 
+==================================================
+*/
+/*
+                hero image
+*/
+
+.hero-technology{
+   	background: url("../images/hero-tech.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 300px 0;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.hero-tech-text {
+    font-family: "Helvetica Neue Medium";
+    color: #FFFFFF;
+    font-size: 50px;
+    line-height: 1.25;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-align: center;
+    margin: -20% 0% 0% 4%
 }
