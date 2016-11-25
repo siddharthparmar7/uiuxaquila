@@ -255,7 +255,11 @@ section .hero-video video{
 
 /* 
 ==================================================
+==================================================
+
                     technology page 
+
+==================================================
 ==================================================
 */
 /*
@@ -281,4 +285,70 @@ section .hero-video video{
     font-weight: 600;
     text-align: center;
     margin: -20% 0% 0% 4%
+}
+
+
+
+/*
+==================================================
+                     section 2
+                        nav pills
+==================================================
+*/
+
+.nav-pills>li {
+    float: left;
+    width: 49%;
+    text-align: center;
+}
+
+.section2 .nav {
+    margin-bottom: 0;
+    list-style: none;
+    }
+
+.section2 .pill-wrapper{
+	padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 1%;
+}
+
+.nav-pills>li.active>a {
+    color: #fff;
+    background-color: #3F51B5;
+    opacity: 0.87;
+    font-size: 20px;
+}
+
+.nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #3F51B5;
+    opacity: 1;
+}
+
+.nav-pills>li.inactive>a {
+    color: white;
+    background-color: #FF4081;
+    opacity: 0.40;
+    font-size: 20px;
+}
+
+
+.tab-content-wrapper {
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/* section 2 video*/
+.section2-video-wrapper {
+    margin: 2% 20% 5% 22%;
+}
+
+/*play button*/
+
+.playButton {
+	position: absolute;
+    z-index: 1;
+    margin: 10% 0 0 17%;
 }
