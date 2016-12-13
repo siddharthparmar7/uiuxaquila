@@ -6,11 +6,11 @@
                 <div class="col-md-10 col-md-offset-1">
                     <ul class="secondary-nav">
                         <li><a href="#">About Us</a></li>
-                        <li><a href="#">FAQs</a></li>
+                        <li><a href="https://www.facebook.com/notes/mark-zuckerberg/the-technology-behind-aquila/10153916136506634/" target="new">FAQs</a></li>
                         <li><a href="#">Contact Us</a></li>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Technology</a></li>
-                        <li><a href="#">Gallery</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="technology.php">Technology</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
                     </ul>
                 </div>
             </div>

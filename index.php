@@ -19,7 +19,8 @@ Date : 7-11-16
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!--    local css file-->
-    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/main.css" type="text/css" rel="stylesheet">    
+    <link href="css/blueimp-gallery.min.css" type="text/css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -41,14 +42,19 @@ Date : 7-11-16
     <section class="hero">
         <div class="hero-text">
             <h1>Meet Aquila</h1>
-            <a href="#"><img src="icons/Untitled-1-01.png" class="playButton" /></a>
+            <a href="#"><img src="icons/play.png" class="playButton" id="playFeaturedVideo"/></a>
         </div>
         <div class="hero-video">
 <!--            <input type="image" src="icons/Untitled-1-01.png" class="playButton" /> -->
             <video poster="images/heroImage.jpg" preload="meta" autoplay muted loop>
                 <source src="AquilaFlyingPromo.mp4" type="video/mp4">
-                <source src="AquilaFlyingPromo.ogv" type="application/ogg">
-                <source src="AquilaFlyingPromo.webm" type="application/webm"> 
+            </video>
+        </div>
+        
+        <div class="featured-video-wrapper">
+            <a href="#" id="close-featured-video">Close</a>
+             <video poster="images/heroImage.jpg" id= "featured-video" preload="meta" >
+                <source src="featuredVideo.mp4" type="video/mp4">
             </video>
         </div>
     </section>
@@ -91,7 +97,7 @@ Date : 7-11-16
                             Aquila will need to operate in both cold, thin air at high altitude and warm, thick air at low altitude. The air is 10x more dense at sea level than at cruising altitude, and the aerodynamics of the plane's wings and propellers vary greatly over that range. 
                             </p>
                             
-                            <a href="#" class="learn-more">Learn more ></a>
+                            <a href="technology.php" class="learn-more">Learn more ></a>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -101,7 +107,7 @@ Date : 7-11-16
                             Aquila will carry a communications payload that will use lasers to transfer data more than 10 times faster than existing systems. It will be able to aim its beams precisely enough to hit a dime more than 11 miles away while in motion.
                             </p>
                             
-                            <a href="#" class="learn-more">Learn more ></a>
+                            <a href="technology.php" class="learn-more">Learn more ></a>
                         </div>
                     </div>
                 </div>
@@ -130,6 +136,10 @@ Date : 7-11-16
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <script src="js/jquery.blueimp-gallery.min.js"></script>
+    <script src="js/bootstrap-image-gallery.min.js"></script>
+    
 <!--    local javascript file-->
     <script src="js/main.js" type="text/javascript"></script>
 </body>
