@@ -62,9 +62,14 @@ a {
     color: #3F51B5;
 }
 
-.right>span, .left>span {
+.left>.glyphicon, .right>.glyphicon {
     color: #FF4081;
     font-size: 70px;
+}
+
+.btn-default {
+    background-color: #FF4081;
+    color: white;
 }
 /*
 ============================
@@ -503,7 +508,16 @@ section .featured-video-wrapper>video {
 
 
 
+/* about us page*/
 
+.dexTech-banner {
+    background: url("../images/dextech-banner.jpg") no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 200px 0;
+    width: 100%;
+    opacity: 0.8;
+}
 
 
 
@@ -650,10 +664,17 @@ section .featured-video-wrapper>video {
     
 /*    changes to caresole*/
     
+    .left>.glyphicon, .right>.glyphicon {
+/*    color: transparent;*/
+    font-size: 40px;
+    }
+    
+/*
     .right>span, .left>span {
     color: #FF4081;
-    font-size: 50px;
+    font-size: 40px;
     }
+*/
     
     .carousel-caption>h3 {
         font-size: 20px;

@@ -5,9 +5,9 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1">
                     <ul class="secondary-nav">
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="aboutUs.php">About Us</a></li>
                         <li><a href="https://www.facebook.com/notes/mark-zuckerberg/the-technology-behind-aquila/10153916136506634/" target="new">FAQs</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="aboutUs.php#contactUs">Contact Us</a></li>
                         <li><a href="index.php">Home</a></li>
                         <li><a href="technology.php">Technology</a></li>
                         <li><a href="gallery.php">Gallery</a></li>

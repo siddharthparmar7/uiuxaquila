@@ -28,8 +28,10 @@ $("#playFeaturedVideo").click(function(){
     video.play();
     
     
+    
 });
 
+// check for video full screen -> features video
 document.addEventListener("fullscreenchange", function () {
     console.log(document.fullscreen);
     isVideoFullScreen(document.fullscreen);
@@ -47,7 +49,14 @@ function isVideoFullScreen(bool) {
     var video = document.getElementById("featured-video");
     if(bool){
         $(".featured-video-wrapper").css("display", "block"); 
+        
         video.play();
+        
+        //exit fullscreen when video ends
+        video.addEventListener("ended", function(){
+            document.webkitExitFullscreen();
+            $(".featured-video-wrapper").css("display", "none"); 
+        })
     }
     else{
         $(".featured-video-wrapper").css("display", "none"); 
