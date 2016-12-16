@@ -197,12 +197,9 @@ section .featured-video-wrapper>video {
     height: 90px;
 }
 
+
+/*play button for tech page*/
 #playButtonForTechPage {
-/*
-	top: 0;
-    left: 0;
-    margin: 25% 82% auto auto;
-*/
     transform: translateY(150%);
 }
 
@@ -263,6 +260,8 @@ section .featured-video-wrapper>video {
 /*    background-color: aqua;*/
 }
 
+
+/* gallery on the first page - bottom*/
 .gallery-thumbnails-row {
 	margin-top: 7%;
 }
@@ -432,10 +431,15 @@ section .featured-video-wrapper>video {
 }
 
 
+/*
+=======================================
+=======================================
 
+communication page
 
-/*communication page*/
-
+=======================================
+=======================================
+*/
 
 .comm-images {
     margin-bottom: 5%;   
@@ -446,7 +450,15 @@ section .featured-video-wrapper>video {
 
 
 
-/*gallery page*/
+/*
+=======================================
+=======================================
+
+            Gallery Page
+
+=======================================
+=======================================
+*/
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -491,8 +503,15 @@ section .featured-video-wrapper>video {
 
 
 
+/*
+=======================================
+=======================================
 
-/* about us page*/
+        About Us/ Contact Us
+
+=======================================
+=======================================
+*/
 
 .dexTech-banner {
     width: 100%;
@@ -515,6 +534,7 @@ section .featured-video-wrapper>video {
 
 @media (max-width: 1200px) {
     
+/*    gallery page*/
         .gallery-thumbnail {
         height: 100%;
         width: 100%;
@@ -524,6 +544,7 @@ section .featured-video-wrapper>video {
         width: 360px;
     }
     
+/*    about us page*/
     .dexTech-banner {
     width: 100%;
     opacity: 0.8;
@@ -560,6 +581,7 @@ section .featured-video-wrapper>video {
     text-align: center;
     }
     
+    /*    about us page*/
     .dexTech-banner {
     width: 100%;
     opacity: 0.8;
@@ -609,6 +631,7 @@ section .featured-video-wrapper>video {
     transform: translateY(100%);
     }
     
+    /*    about us page*/
     .dexTech-banner {
     width: 100%;
     opacity: 0.8;
@@ -675,17 +698,19 @@ section .featured-video-wrapper>video {
     }
     
     
-/*    changes to caresole*/
+/*    changes to caresole -> the arrows*/
     
     .left>.glyphicon, .right>.glyphicon {
     font-size: 40px;
     }
     
 
-    
+/*     carousel captions*/
     .carousel-caption>h3 {
         font-size: 20px;
     }
+    
+    /*    about us page*/
     
     .dexTech-banner {
     width: 100%;
@@ -748,18 +773,20 @@ section .featured-video-wrapper>video {
     }
     
     
-/*    changes to caresole*/
+/*    changes to caresole -> the arrows*/
     
     .left>.glyphicon, .right>.glyphicon {
     font-size: 40px;
     }
     
 
-    
+/*    carousel captions*/
     .carousel-caption>h3 {
         font-size: 20px;
     }
     
+    
+    /*    about us page*/
     .dexTech-banner {
     width: 100%;
     opacity: 0.8;
