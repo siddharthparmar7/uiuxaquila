@@ -10,7 +10,7 @@ We started the Connectivity Lab at Facebook to see if we could change this parad
 </p>
 
 <div class="comm-images col-md-10 col-md-offset-2" id="comm-image1">
-    <img src="" class="img-responsive"/>
+    <img src="http://localhost/Aquila/images/communicaiton.jpg" class="img-responsive">
 </div>
 
 <p>
@@ -32,7 +32,7 @@ To make all of that possible, we had to make the plane really big and really lig
 Aquila will fly at between 60,000 and 90,000 feet during the day — above commercial air traffic and above the weather. The air at that altitude is thin, about 5 percent that of sea level, so we utilized a high aspect ratio wing and an undercambered airfoil in the design to optimize its lift-to-drag ratio. During the day, the aircraft will fly at 90,000 feet to maximize its ability to charge its solar cells. At night, it will glide down to 60,000 feet, taking advantage of gravitational potential energy to consume less power.
     </p>
 <div class="comm-images col-md-10 col-md-offset-2" id="comm-image2">
-    <img src="" class="img-responsive"/>
+    <img src="http://localhost/Aquila/images/communicaiton2.png" class="img-responsive">
 </div>
 
 <p>
@@ -49,7 +49,7 @@ The second milestone is an advancement in using free space laser communications 
 </p>
 
 <div class="comm-images col-md-10 col-md-offset-2" id="comm-image3">
-    <img src="" class="img-responsive"/>
+    <img src="http://localhost/Aquila/images/communicaiton3.png" class="img-responsive">
 </div>
 
 <p>

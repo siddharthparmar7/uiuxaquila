@@ -439,25 +439,9 @@ section .featured-video-wrapper>video {
 
 .comm-images {
     margin-bottom: 5%;   
-}
-
-
-#comm-image1>img {
-    background: url(../images/communicaiton.jpg) no-repeat;  
-    width: 600px;
-    height: 338px;
-}
-
-#comm-image2>img{
-	background: url("../images/communicaiton2.png") no-repeat;
-    width: 600px;
-    height: 338px;
-}
-
-#comm-image3>img{
-	background: url("../images/communicaiton3.png") no-repeat;
-    width: 600px;
-    height: 338px;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
 }
 
 
@@ -511,12 +495,11 @@ section .featured-video-wrapper>video {
 /* about us page*/
 
 .dexTech-banner {
-    background: url("../images/dextech-banner.jpg") no-repeat;
-    background-position: center;
-    position: relative;
-    padding: 200px 0;
     width: 100%;
     opacity: 0.8;
+    transform: translateX(32%);
+    padding-bottom: 50px;
+    
 }
 
 
@@ -539,6 +522,14 @@ section .featured-video-wrapper>video {
         .gallery-thumbnail-video {
         height: 240px;
         width: 360px;
+    }
+    
+    .dexTech-banner {
+    width: 100%;
+    opacity: 0.8;
+    transform: translateX(30%);
+    padding-bottom: 50px;
+    
     }
     
 }
@@ -567,6 +558,14 @@ section .featured-video-wrapper>video {
     
     .section2-video-wrapper {
     text-align: center;
+    }
+    
+    .dexTech-banner {
+    width: 100%;
+    opacity: 0.8;
+    transform: translateX(25%);
+    padding-bottom: 50px;
+    
     }
 }
 
@@ -609,6 +608,14 @@ section .featured-video-wrapper>video {
     .galleryThumbnaiPlayButton {
     transform: translateY(100%);
     }
+    
+    .dexTech-banner {
+    width: 100%;
+    opacity: 0.8;
+    transform: translateX(18%);
+    padding-bottom: 50px;
+    
+    }
 }
 
 @media (max-width: 480px) {
@@ -619,6 +626,12 @@ section .featured-video-wrapper>video {
      margin-left: 15px; 
     line-height: 30px;
         
+    }
+    
+    .secondary-nav {
+/*    margin-right: 45px;*/
+/*    margin-bottom: 5%;*/
+        margin-left: 9%;
     }
     
     .navbar-toggle {
@@ -665,19 +678,94 @@ section .featured-video-wrapper>video {
 /*    changes to caresole*/
     
     .left>.glyphicon, .right>.glyphicon {
-/*    color: transparent;*/
     font-size: 40px;
     }
     
-/*
-    .right>span, .left>span {
-    color: #FF4081;
-    font-size: 40px;
-    }
-*/
+
     
     .carousel-caption>h3 {
         font-size: 20px;
+    }
+    
+    .dexTech-banner {
+    width: 100%;
+    opacity: 0.8;
+    transform: translateX(0%);
+    padding-bottom: 50px;
+    
+    }
+    
+}
+
+
+@media (max-width: 420px) {
+    
+    nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+     margin-left: 15px; 
+    line-height: 30px;
+        
+    }
+    
+    .secondary-nav {
+    margin-left: 0;
+    }
+    
+    .navbar-toggle {
+        border-color: white;
+    }
+    
+    .icon-bar {
+        background-color: white;
+    }
+    
+    .hero-text {
+	top: 20%;
+    }
+    
+    h1 {
+    font-size: 30px;
+    }
+    
+    .playButton, .pauseButton {
+    width: 40px;
+    height: 40px;
+    }
+    
+    #aviationTechVideo {
+	height: 250px;
+}
+    
+    #playButtonForTechPage {
+    transform: translateY(260%);
+}
+    
+/*    gallery page thumb nails*/
+    .galleryThumbnaiPlayButton {
+    transform: translateY(200%);
+        left: -9%
+    }
+    
+    
+/*    changes to caresole*/
+    
+    .left>.glyphicon, .right>.glyphicon {
+    font-size: 40px;
+    }
+    
+
+    
+    .carousel-caption>h3 {
+        font-size: 20px;
+    }
+    
+    .dexTech-banner {
+    width: 100%;
+    opacity: 0.8;
+    transform: translateX(0%);
+    padding-bottom: 50px;
+    
     }
     
 }

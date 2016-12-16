@@ -40,7 +40,7 @@ Date : 7-11-16
      <!--    section hero image and text-->
     
     <section class="dexTech-banner">
-        
+        <img src="images/dextech-banner.jpg" class="img-responsive">
     </section>
     
      <section class="section2">
